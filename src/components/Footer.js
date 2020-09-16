@@ -58,6 +58,24 @@ const Footer = () => (
         </a>
       </Item>
       <Item>
+        Follow us on
+        <a
+          href="https://twitter.com/grow_unicorns"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>{' '}
+        {/* by{' '}
+        <a
+          href="https://github.com/ryanwiemer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @ryanwiemer
+        </a> */}
+      </Item>
+      {/* <Item>
         <a
           href="https://github.com/ryanwiemer/gatsby-starter-gcn"
           target="_blank"
@@ -73,7 +91,7 @@ const Footer = () => (
         >
           @ryanwiemer
         </a>
-      </Item>
+      </Item> */}
     </List>
   </Wrapper>
 )
