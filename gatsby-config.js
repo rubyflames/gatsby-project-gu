@@ -17,11 +17,11 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'GCN',
+    title: 'Growing Unicorns',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-    siteUrl: 'https://gcn.netlify.com',
-    image: '/images/share.jpg',
+      'Find your inner unicorn and grow it!',
+    siteUrl: 'http://www.growingunicorns.com',
+    image: '/images/unicorn-emoji.png',
     menuLinks: [
       {
         name: 'Home',
@@ -31,10 +31,10 @@ module.exports = {
         name: 'About',
         slug: '/about/',
       },
-      {
-        name: 'Contact',
-        slug: '/contact/',
-      },
+      // {
+      //   name: 'Contact',
+      //   slug: '/contact/',
+      // },
     ],
     postsPerFirstPage: 7,
     postsPerPage: 6,

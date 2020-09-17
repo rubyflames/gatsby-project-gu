@@ -58,7 +58,7 @@ const Footer = () => (
         </a>
       </Item>
       <Item>
-        Follow us on
+        Follow us on 
         <a
           href="https://twitter.com/grow_unicorns"
           target="_blank"
