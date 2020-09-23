@@ -91,7 +91,7 @@ module.exports = {
         theme_color: '#ffffff',
         display: 'minimal-ui',
         // icon: './static/images/favicon.png',
-        icon: '/images/unicorn-emoji.png',
+        icon: '/public/images/unicorn-emoji.png',
       },
     },
     'gatsby-plugin-offline',
