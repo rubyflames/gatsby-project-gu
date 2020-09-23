@@ -44,7 +44,7 @@ const Item = styled.li`
 const Footer = () => (
   <Wrapper>
     <List>
-      <Item>
+      {/* <Item>
         <a
           href="https://www.contentful.com/"
           rel="nofollow noopener noreferrer"
@@ -56,7 +56,7 @@ const Footer = () => (
             alt="Powered by Contentful"
           />
         </a>
-      </Item>
+      </Item> */}
       <Item>
         Follow us on 
         <a
