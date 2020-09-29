@@ -31,10 +31,10 @@ module.exports = {
         name: 'About',
         slug: '/about/',
       },
-      // {
-      //   name: 'Contact',
-      //   slug: '/contact/',
-      // },
+      {
+        name: 'Contact',
+        slug: '/contact/',
+      },
     ],
     postsPerFirstPage: 7,
     postsPerPage: 6,
@@ -70,6 +70,14 @@ module.exports = {
         process.env.NODE_ENV === 'development'
           ? contentfulConfig.development
           : contentfulConfig.production,
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://outlook.us2.list-manage.com/subscribe/post?u=e4ae01e0ca38008c69ba3089f&amp;id=ecf68edfec', // string; add your MC list endpoint here; see instructions below
+          timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+      
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
